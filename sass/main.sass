@@ -1,0 +1,94 @@
+@import "bourbon"
+@import "vars"
+@import "libs"
+
+//Custom styles here
+
+@import "media"
+
+body 
+	background: #ccc
+
+.dsp-none
+	display: none
+
+.content
+	padding-top: 30px
+
+.helper
+	background: #fff
+	margin: 0 0 20px
+	border-radius: 2px
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1)
+	padding: 50px
+	h1
+		margin-top: 0
+		color: $gray
+
+.article
+	background: #fff
+	margin: 0 0 30px 0
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1)
+
+.top-article
+	padding: 50px
+	h1
+		margin-top: 0
+		color: $gray
+		a
+			color: $gray
+			&:hover
+				text-decoration: none
+				color: #666
+	p
+		font-size: 16px
+		line-height: 1.8em
+		margin: 20px 0 0
+
+.bottom-article
+	background: #3498db
+	padding: 5px 50px 20px
+	p
+		display: inline-block
+		margin-right: 15px
+		margin-bottom: 0
+		a
+			color: #fff
+
+.sidebar 
+	margin-bottom: 10px
+	ul
+		background: #fff
+		box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1)
+		padding: 20px
+		list-style: none
+		margin: 0 0 30px 0
+		h3 
+			margin: 0 0 10px
+			color: $gray
+			font-weight: bold
+		li 
+			margin: 10px 0
+
+.about-section
+	background: #fff
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1)
+	padding: 20px
+	list-style: none
+	margin: 0 0 30px 0
+	h2
+		margin: 0 0 10px
+		color: $gray
+		font-weight: normal
+		padding-bottom: 5px
+		border-bottom: 1px solid $gray
+	
+.footer
+	padding-bottom: 50px
+	h1, p
+		text-align: center
+	h1
+		font-size: 20px
+		margin: 0
+	p
+		margin: 0

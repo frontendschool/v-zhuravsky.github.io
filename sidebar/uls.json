@@ -1,0 +1,49 @@
+{
+	"quotes": [
+		{
+			"text" : "\"Before getting good experience always comes a lot of work.\" - Vyacheslav Zhuravsky"
+		}
+	],
+	"categories": [
+	    {
+	    	"name" : "My life",
+	    	"link" : "categories.html#life"
+	    },
+	    {
+	    	"name" : "Speedcubing",
+	    	"link" : "categories.html#speedcubing"
+	    },
+	    {
+	    	"name" : "Frontend development",
+	    	"link" : "categories.html#frontend"
+	    },
+	    {
+	    	"name" : "Backend development",
+	    	"link" : "categories.html#backend"
+	    }
+	],
+	"projects": [
+	    {
+	    	"name" : "Speedcubing timer \"Be fast\"",
+	    	"link" : "https://be-fast.github.io"
+	    },
+	    {
+	    	"name" : "Blog \"How to become awesome frontend developer?\"",
+	    	"link" : "https://frontendschool.github.io"
+	    }
+	],
+	"social": [
+	    {
+	    	"name" : "VK profile",
+	    	"link" : "https://vk.com/crazycppdeveloper"
+	    },
+	    {
+	    	"name" : "GitHub",
+	    	"link" : "http://github.com/frontendschool"
+	    },
+	    {
+	    	"name" : "Twitter",
+	    	"link" : "https://twitter.com/DeveloperForWeb"
+	    }
+	]
+}

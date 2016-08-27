@@ -1,0 +1,62 @@
+@import "bourbon"
+@import "sass/vars"
+@import "sass/base"
+
+//First screen styles
+.header
+	background: black
+	.row .col-md-3,
+	.row .col-md-9
+		padding: 30px 100px
+
+.header .row .col-md-3 a 
+	display: block
+	height: 248px
+	width: 248px
+	margin: 30px auto
+	img
+		border: 3px solid #fff
+
+.header .row .col-md-9 h1 
+	a
+		font-size: 36px
+		color: #fff
+		font-weight: normal
+		text-transform: uppercase
+		transition: 0.3s all
+		&:hover
+			text-decoration: none
+			color: $accent
+	
+.header .row .col-md-9 ul
+	list-style: none
+	padding: 0
+	margin: 0
+	li
+		color: #fff
+		font-size: 18px
+
+.header .row .col-md-9 h1.quote
+	text-transform: none
+	font-size: 30px
+	color: #fff
+	font-weight: normal
+
+.header
+	.row
+		.top-nav
+			background: $accent
+			padding: 15px 100px
+			ul
+				list-style: none
+				padding: 0
+				margin: 0
+			li
+				float: left
+				margin: 0 15px
+				a
+					transition: 0.3s all
+					color: #fff
+					&:hover
+						text-decoration: none
+						color: #ccc
