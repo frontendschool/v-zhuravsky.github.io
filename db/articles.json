@@ -1,6 +1,23 @@
 {
 	"articles": [
 		{
+	    	"title": "Blog redesign.",
+	    	"text": "I've just updated design of my blog. What's been changed: header and footer styles, about page info and style.", 
+	    	"date": "15.08.2016",
+	    	"categories": [
+	    		{
+	    			"category-name": "Frontend,",
+	    			"cat-link": "frontend"
+	    		},
+	    		{
+	    			"category-name": "My life",
+	    			"cat-link": "life"
+	    		}
+	    	],
+	    	"article-link": "view.html#3",
+	    	"id": 3
+	    },
+		{
 	    	"title": "Django 1.10. First impressions.",
 	    	"text": "A few days ago I started to learn Django framework. This framework helps to create web sites with hyper speed using python programming language (one of my favorite programming languages). I've already created a few web sites using django and I really like it. For example, to create a good blog using django you need to spend only 20-30 minutes and it's awesome. As for me django is better variant for backend development than php. It's fast and secure and I think that I'll use that framework as main as for backend development.", 
 	    	"date": "15.08.2016",
